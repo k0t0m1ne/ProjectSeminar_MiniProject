@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style> body {background-color:#E0FFFF;} </style>
+	<meta charset = "UTF-8">
+	<title> Проектный семинар</title>
+</head>
+<body style="font-family:Comic Sans MS, Bahnschrift, Arial">
+
+	<h1>Сивов Георгий Васильевич, БИВ214</h1>
+	<br>{{date}}</br>
+	
+	<h1>GitLab</h1>
+	<br>Всего коммитов: {{git_project_commits}}</br>
+	<br>Гистограмма записи коммитов по неделям:</br>
+	<br>{{gitlab_project_gist}}</br>
+	<br>График с изменением общего количества коммитов по неделям:</br>
+	<br>{{gitlab_project_graph}}</br>
+
+	<h1>Zulip</h1>
+        <br>Всего сообщений: {{zulip_messages}}</br>
+        <br>Каналы: {{zulip_channels}}</br>
+        <br>График c количеством сообщений по дням:</br>
+        <br>{{zulip_gist}}</br>
+        <br>График линейный с изменением общего количества сообщений:</br>
+	<br>{{zulip_graph}}</br>
+
+	<h1>Jitsi</h1>
+	<br>Всего посещений:{{jitsi_meetings}}</br>
+	<br>Посещенные каналы: {{jitsi_rooms}}</br>
+        <br>Гистограмма зависимости количества посещений всех занятий от времени:</br>
+        <br>{{jitsi_gist}}</br>
+	<br>График c изменением общего количества посещений по времени:</br>
+        <br>{{jitsi_graph}}</br>
+
+	<br>Всего посещений проектного семинара: {{jitsi_pr_meetings}}</br>
+	<br>Гистограмма зависимости количества посещений проектного семинара от времени:</br>
+	<br>{{jitsi_pr_gist}}</br>
+        <br>График c изменением общего количества посещений проектного семинара по времени:</br>
+	<br>{{jitsi_pr_graph}}</br>
+
+	<h1>Taiga</h1>
+	<br>Всего пользовательских историй: {{taiga_stories}}</br>
+        <br>Задач в пользовательских историях: {{taiga_tasks}}</br>
+        <br>Линейный график роста количества задач в проекте в Taiga по неделям:</br>
+	<br>{{taiga_graph}}</br>
+</body>
+</html>
